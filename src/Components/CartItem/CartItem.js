@@ -53,8 +53,8 @@ export const CartItem = ({ productData, isCartResetBtn, isCartQtyBtn, isAddToCar
                                         </div>
                                     </div>
                                 }
-                                <div style={{flexDirection:"row"}}>
-                                <p className="item-price">Rs.{item.price}</p>
+                                <div style={{ flexDirection: "row" }}>
+                                    <p className="item-price">Rs.{item.price}</p>
                                 </div>
                                 {isAddToCartBtn &&
                                     <button onClick={() => {
