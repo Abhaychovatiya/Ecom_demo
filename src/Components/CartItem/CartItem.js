@@ -55,7 +55,6 @@ export const CartItem = ({ productData, isCartResetBtn, isCartQtyBtn, isAddToCar
                                 }
                                 <div style={{flexDirection:"row"}}>
                                 <p className="item-price">Rs.{item.price}</p>
-                                <p className="item-price">Subtotal-&nbsp;&nbsp;Rs.{item.price * item.quantity}</p>
                                 </div>
                                 {isAddToCartBtn &&
                                     <button onClick={() => {
