@@ -1,0 +1,21 @@
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.title{
+    font-size:4vh;
+}
+
+.icons {
+    flex-direction: row;
+}
+
+.icon {
+    margin-left: 20px;
+}

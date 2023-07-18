@@ -1,0 +1,22 @@
+.custom-container {
+    font-family: "titleFont", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.title {
+    font-family: "titleFont", sans-serif;
+    font-size: 2rem;
+}
+
+.product-card {
+    width: 93%;
+    padding-right: 2.5rem;
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: 600;
+}
